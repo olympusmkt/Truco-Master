@@ -1,0 +1,155 @@
+html, body {
+	background-color: #327932;
+	transition: 1s!important;
+}
+
+.class_player img { 
+	width: 5em;
+	cursor: pointer!important;  
+	z-index: 1!important;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+.class_player img:hover{  
+	/*margin-right: 2em; */
+	transform: scale(1.2);
+	z-index: 1000!important;
+}
+
+.cards-confirmeds img {
+	width: 4em;
+	margin-right: 0.5em;
+	/*margin-right: -2em;
+	margin-left: -0.2em;*/
+}
+
+
+.class_player_user img { 
+	width: 3.5em; 
+	z-index: 1!important;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+.class_player { 
+	margin-bottom: 0em; 
+	margin-top: 0em; 
+	width: 100%;
+	text-align: center;
+}
+
+.class_player h2 { 
+	font-size: 0.8em; 
+	text-transform: uppercase; color: #fff; 
+	margin-bottom: 0.5em;
+}
+
+.class_player_user h2 {
+	margin-bottom: 0.5em;
+	font-size: 0.8em; 
+}
+
+#container-truco {
+    max-width: 1700px!important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 2em; margin-bottom: 2em;
+}
+
+.cards-confirmeds {
+	background-color: #0000004f;
+	border: solid 10px #00000026;
+    border-style: outset;
+	width: 94%!important;
+	margin-left: 0%;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-radius: 25px;
+}
+
+.class_player_user h2 { 
+	font-size: 1.1em; 
+	text-transform: uppercase; color: #fff; 
+}
+
+.class_player_user { 
+	margin-bottom: 0em; 
+	margin-top: 0em; 
+	width: 100%;
+	text-align: center;
+}
+
+h2, h3, button, label, p {
+	font-family: "Arvo", serif!important;
+}
+
+.item-prelo-game .green-circle {
+    border: 4px solid #327932!important;
+}
+
+
+.item-prelo-game .main-circle:before {
+    border-right: 4px solid #327932!important;
+}
+
+.item-prelo-game .green-circle:before {
+    border-right: 4px solid #327932!important;
+}
+
+.item-prelo-game .main-circle {
+    border: 4px solid #3279327a!important;
+}
+
+.item-prelo-game  .brown-circle {
+    border: 4px solid #327932;
+}
+
+.saldo_class {
+    background-color: #1ac06d;
+    padding: 0.5em 0.9em;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+
+
+
+@media (max-width: 800px) {
+    .class_player h2 {
+        font-size: 1em!important;
+    }
+
+    .class_player_user h2 {
+        font-size: 1em!important;
+    }
+
+    .class_player_user span {
+        font-size: 0.8em!important;
+    }
+
+    .class_player span {
+        font-size: 0.8em!important;
+    }
+
+    .cards-confirmeds img {
+	    width: 3em;
+	}
+
+	#count_user_active {
+		top: 1em!important;
+		bottom: auto!important;
+	}
+}
+
+
+@media (min-width: 800px) {
+	.cards-confirmeds {
+		width: 98%!important;
+	}
+
+}
